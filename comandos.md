@@ -14,3 +14,7 @@
 
 ## crear punto de restauracion
     git commit -m 'mensaje'
+
+## agregar a stagin area y crear punto de restauracion en un solo comando
+    git commit -a -m 'mensaje'
+
