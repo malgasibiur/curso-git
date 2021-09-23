@@ -18,3 +18,18 @@
 ## agregar a stagin area y crear punto de restauracion en un solo comando
     git commit -a -m 'mensaje'
 
+> otro modo de hacer un add y u commiit juntos es:
+    git commit -am 'mesnaje'
+
+## ver listado completo de commit con su autor <email>, descripcion, timestamp
+    git log
+
+>se puede ver un log corto, de una sola linea con
+git log --oneline
+
+## moverse hacia cualquier commit
+    git checkout nHASH
+
+## Otro modo de volver al ultimo commit
+    git checkout master
+
