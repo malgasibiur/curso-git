@@ -15,6 +15,9 @@
 ## crear punto de restauracion
     git commit -m 'mensaje'
 
+## crear punto de restauracion con mensaje corto (título) y mensaje largo (descripción)
+    git commit -m 'mensaje corto' - m 'mensaje largo (descripcion)'
+
 ## agregar a stagin area y crear punto de restauracion en un solo comando
     git commit -a -m 'mensaje'
 
